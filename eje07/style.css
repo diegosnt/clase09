@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+div {
+    display: inline-block;
+    background-color: papayawhip;
+    width: 100px;
+    height: 100px;
+
+    margin-top: 25px;
+    position: fixed;
+}
+
+span  {
+    background-color: goldenrod;
+    text-transform: uppercase;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.zIndex{
+    z-index: 1;
+}
+

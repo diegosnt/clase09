@@ -1,0 +1,10 @@
+body{background-color: salmon;}
+
+.homero-sapiens {
+  display: flex;
+  width: 50%;
+}
+
+.sapiens-5 {
+  align-items: -3;
+}

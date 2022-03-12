@@ -1,0 +1,15 @@
+
+/*
+Teníamos pensado mostrar una frase clásica en el navegador. Ya tenemos algunas reglas de CSS declaradas, pero la estructura HTML quedó al revés. Nuestro trabajo será invertir el orden de la frase para que se lea correctamente, asignándole una nueva regla de CSS a la clase "frase".
+
+*/
+
+.frase {
+  display: flex;
+  width: 350px;
+  flex-direction: row-reverse;
+}
+
+body {
+  background-color: papayawhip;
+}

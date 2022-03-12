@@ -1,0 +1,16 @@
+/*
+
+Disponiendo UL's:
+Veamos el alcance que tiene Flexbox. 
+
+Debemos convertir al <ul> con clase "nav-bar" en un contenedor flex para que sus elementos se dispongan uno al lado del otro.
+Dejamos una imagen de cómo se ve el sitio de momento:
+
+*/
+
+body{background-color: cyan;}
+
+
+.nav-bar {
+    display: flex;
+}

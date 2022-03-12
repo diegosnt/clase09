@@ -1,0 +1,24 @@
+/*
+Estilizando elementos de forma horizontal
+¡Pero que viva el fútbol!
+
+Nos piden armar una maqueta del sitio para la Superliga Argentina. Por ahora, tenemos una barra de navegación y un logo en el index.html, pero sin mucho diseño. Queremos estilizarla para que todos los elementos estén en una misma línea horizontal.
+El sitio, de momento, se ve así:
+Para esto, debemos convertir al <div> con clase "enlaces" y al <div> con clase "nav-bar" en contenedores flex. Además, tanto la <img> como el <ul> deben estar distribuidos de manera uniforme a lo largo de la fila.
+*/
+
+.nav-bar {
+
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: papayawhip;
+}

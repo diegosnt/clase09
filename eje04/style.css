@@ -1,0 +1,25 @@
+/*
+Centrando la x
+Afrontemos un nuevo desafío...
+
+Para este ejercicio contamos con un tablero de dardos y queremos, usando reglas de CSS, lograr centrar la X sobre él.
+El sitio, de momento, se ve así:
+
+Para esto, debemos convertir al <div> con clase "juego-dardos" en un contenedor flex, y centrar a la <img> en el eje x y en el eje y, para que quede exactamente en el medio.
+¡A divertirse!
+
+Si no sabemos por dónde empezar, podemos hacer click en la pista de abajo.
+
+https://i.imgur.com/TzuYXUL.png
+https://i.imgur.com/TzuYXUL.png
+*/
+
+.juego-dardos {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+body {
+  background-color: lightblue;
+}
