@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: greenyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: gainsboro;
+    padding: 35px;
+}
+main h2 {   
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: yellowgreen;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.color1{
+    background-color: brown;
+}
+
+.color2{
+    background-color: forestgreen;
+}
+
+.color3{
+    background-color: peru;
+}
+
+.color4{
+    background-color: blue;
+}
